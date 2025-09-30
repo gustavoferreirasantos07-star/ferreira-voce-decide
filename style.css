@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Bitcount+Prop+Single+Ink:wght@100..900&display=swap');
+
 :root{
-    /* CSS HEX */
---space-cadet: #2b2d42ff;
---cool-gray: #8d99aeff;
---antiflash-white: #edf2f4ff;
---red-pantone: #ef233cff;
+--azul-forte: #2b2d42ff;
+--cinza: #8d99aeff;
+--branco: #edf2f4ff;
+--vermelho: #ef233cff;
+--titulo:  "Bitcount Prop Single Ink", system-ui;
+--texto: "Alan Sans", sans-serif;
+}
+
+body{
+    background-color: var(--azul-forte);
+    font-family: var(--texto);
 }
