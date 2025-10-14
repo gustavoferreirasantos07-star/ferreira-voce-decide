@@ -2,7 +2,7 @@
 
 :root{
 --azul-forte: #2b2d42ff;
---cinza: #8d99aeff;
+--rosa: rgb(190, 10, 235);
 --branco: #edf2f4ff;
 --vermelho: #ef233cff;
 --titulo:  "Bitcount Prop Single Ink", system-ui;
@@ -17,4 +17,28 @@ body{
     justify-content: center;
     margin: 0;
     padding: 0;
+}
+
+button{
+    background-color: var(--azul-forte);
+    color: var(--branco);
+    padding: 10 px;
+    border: 2px solid var(--branco);
+    border-radius: 8px;
+    font-size: 20px;
+    margin: 5px;
+}
+
+button:hover{
+    background-color: var(--rosa);
+    color: var(--cinza);
+    transition: 0,5s;
+    border: 2px solid #000;
+    box-shadow: 2px 2px 10px #000  ; 
+}
+main{
+    margin: 40px 20px;
+    max-width: 90%;
+    text-align: center;
+    font: 28px;
 }
